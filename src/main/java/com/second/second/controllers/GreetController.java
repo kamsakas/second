@@ -15,4 +15,9 @@ public class GreetController {
         return "second second";
     }
 
+    @GetMapping("/newGit")
+    public String third(){
+        return "third";
+    }
+
 }
